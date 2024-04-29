@@ -9,8 +9,7 @@ body {
     max-width: 400px;
     margin-left: 0px;
     padding: 0px;
-    background-color: bisque;
-
+    background-color: rgb(240, 159, 61);
 }
 
 .header {
@@ -27,20 +26,10 @@ body {
     top: 1.5rem;
 }
 
-.PhotoProfile {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-image: url('../images/PhotoProfile.jpeg');
-    background-size: cover;
-    margin: 0 auto;
-}
-
 .photo-personal{
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background-image: url('../images/PhotoProfile.jpeg');
     background-size: cover;
     margin: 0 auto;
 }
@@ -48,19 +37,6 @@ body {
 #sectionmain{
     text-align: center;
     position: relative;
-}
-
-.navbar {
-    text-align: center;
-    border: 1px solid hsl(323, 92%, 48%);
-    border-radius: 10px;
-    background-color: #f1deec;
-    box-shadow: 4px 4px 4px;
-    padding-top: 2%;
-    margin-top: 10%;
-    margin-left: 40%;
-    max-width: 400px;
-
 }
 
 #particles-js {

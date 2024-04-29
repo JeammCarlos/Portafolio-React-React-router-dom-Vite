@@ -1,0 +1,42 @@
+.navbar {
+    text-align: center;
+    border: 1px solid hsl(320, 3%, 39%);
+    border-radius: 10px;
+    background-color: #281e2a;
+    box-shadow: 4px 4px 4px;
+    padding-top: 2%;
+    margin-top: 10%;
+    margin-left: 40%;
+    max-width: 400px;
+
+}
+
+.navbar-brand h1{
+    color: aliceblue;
+    
+}
+
+.PhotoProfile {
+    width: 250px;
+    height: 250px;
+    border-radius: 60%;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.nombre_classname_ul{
+    display:flex;
+    gap: 40px;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+
+.nombre_classname{
+    color: aliceblue;
+    font-size: 15px;
+    font-weight:bold;
+
+
+ 
+}
