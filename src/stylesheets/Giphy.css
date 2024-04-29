@@ -1,3 +1,7 @@
+h2 {
+  color: aliceblue;
+}
+
 /* Estilos para el mensaje de error */
 .error-message {
     color: red;
@@ -27,4 +31,8 @@
   form {
   margin: 10px;
     
+  }
+
+  p {
+    color: aliceblue;
   }
