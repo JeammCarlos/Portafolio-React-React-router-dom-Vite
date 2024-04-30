@@ -1,0 +1,38 @@
+h2 {
+  color: aliceblue;
+}
+
+/* Estilos para el mensaje de error */
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para la galería de GIFs */
+  .gif-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Ajusta el tamaño mínimo de las columnas según tus preferencias */
+    gap: 20px; /* Espacio entre los GIFs */
+  }
+  
+  .gif-grid img {
+    width: 100%; /* Las imágenes ocupan el ancho completo de su contenedor */
+    height: 100%; /* Mantiene la relación de aspecto */
+    border: 1px solid #ccc; /* Recuadro gris claro */
+    box-shadow: 3px 3px 5px rgba(195, 186, 186, 0.5); /* Sombra sutil */
+    transition: transform 0.3s ease; /* Transición suave para el zoom */
+  }
+  
+  .gif-grid img:hover {
+    transform: scale(1.2); /* Zoom al pasar el mouse */
+  }
+
+  form {
+  margin: 10px;
+    
+  }
+
+  p {
+    color: aliceblue;
+  }
