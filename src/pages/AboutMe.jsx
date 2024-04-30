@@ -6,14 +6,14 @@ function InfoPersonal() {
     return (
 
         <div className="container">
-            <img className="photo-personal" alt=""/>
+            <img src="../src/images/foto_cv_lc_es_4.jpg"  className="photo-personal"/>
 
             <section className="personal-info-des">
-                <h1>Romina Lizbeth Loyda Arenas</h1>
-                <h2>Ingeniera en Biotecnología</h2>
+                <h1>Samuel Vidal Muñoz</h1>
+                <h2>Front-End Developer</h2>
                 <p>CDMX</p>
-                <p>(+52) 782-232-55-05</p>
-                <p>romiloyda@gmail.com</p>
+                <p>789285942</p>
+                <p>samuel.vidal.m@gmail.com</p>
                 <a href="https://www.linkedin.com/in/rominaloyda">LinkedIn: Romina Loyda</a>
             </section>
 
@@ -21,18 +21,22 @@ function InfoPersonal() {
 
                 <section className="profile-description">
                     <h2>Sobre mí</h2>
-                    <p>Ingeniero en biotecnología altamente motivado y competente en busca de oportunidades para aplicar mis
-                        habilidades y conocimientos en un entorno profesional desafiante. Comprometido a impulsar la innovación
-                        y contribuir a los avances en biotecnología a través de la investigación y el desarrollo.</p>
+                    <p>Desarrollador front end con 12 años de experiencia dirigiendo proyectos de diseño de páginas web. 
+                        Centrado en la creación de códigos claros y con capacidad para cumplir los objetivos y las necesidades del cliente.</p>
                 </section>                   
 
                 <section className="education">
                     <h2>Educación</h2>
                     <ul>
                         <li>
-                            <strong>Universidad Veracruzana</strong>
-                            <p>Ingeniería en Biotecnología | Cédula: 13420301</p>
-                            <p>2020-2023</p>
+                            <strong>Campus MVP Online</strong>
+                            <p>Máster en Desarrollo de Apps Web Front-End</p>
+                            <p>Junio 2020</p>
+                        </li>
+                        <li>
+                            <strong>UDIT Universidad</strong>
+                            <p>Grado en Ingeniería de Telecomunicaciones</p>
+                            <p>Junio 2018</p>
                         </li>
                     </ul>
                 </section>
@@ -41,8 +45,9 @@ function InfoPersonal() {
                     <h2>Cursos</h2>
                     <ul>
                         <li>Azure Fundamentals</li>
-                        <li>Curso HPLC</li>
-                        <li>Curso Python</li>
+                        <li>Front-End Web Developer. The World Wide Web Consortium (W3C).</li>
+                        <li>Full Stack Cloud Developer. IBM.</li>
+                        <li>Cloud Application Development. Foundations.</li>
                     </ul>
                 </section>
 

@@ -6,10 +6,10 @@ body {
 }
 
 .container {
-    max-width: 400px;
+    max-width: 500px;
     margin-left: 0px;
     padding: 0px;
-    background-color: rgb(240, 159, 61);
+    background-color: rgba(238, 237, 237, 0.849);
 }
 
 .header {
@@ -30,7 +30,6 @@ body {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background-size: cover;
     margin: 0 auto;
 }
 
