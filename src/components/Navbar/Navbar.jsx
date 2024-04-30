@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="navbar">
             <section className="navbar-brand">
 
-                <img src="../src/images/foto_cv_lc_es_4.JPG" className="PhotoProfile" />
+                <img src="../src/images/foto_cv_lc_es_4.JPG" className="PhotoProfile"/>
                 <h1>PORTAFOLIO</h1>
 
             </section>

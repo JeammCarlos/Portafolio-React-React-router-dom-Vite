@@ -6,7 +6,7 @@ function InfoPersonal() {
     return (
 
         <div className="container">
-            <img className="photo-personal" alt="" />
+            <img className="photo-personal" alt=""/>
 
             <section className="personal-info-des">
                 <h1>Romina Lizbeth Loyda Arenas</h1>
