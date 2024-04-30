@@ -14,9 +14,10 @@ const Navbar = () => {
 
             </section>
             <ul className='nombre_classname_ul'>
-                <li><NavLink className='nombre_classname' to='/'>Home</NavLink></li>
-                <li><NavLink className='nombre_classname' to={'/AboutMe'}>InfoPersonal</NavLink></li>
-                <li><NavLink className='nombre_classname' to={'/Skills'}>InfoAdicional</NavLink></li>
+                <li><NavLink className='nombre_classname' to={'/AboutMe'}>About me</NavLink></li>
+                <li><NavLink className='nombre_classname' to={'/Experience'}>Experience</NavLink></li>
+                <li><NavLink className='nombre_classname' to={'/Skills'}>Skills</NavLink></li>
+                <li><NavLink className='nombre_classname' to={'/Giphy'}>Giphy</NavLink></li>
             </ul>
         </nav>
         

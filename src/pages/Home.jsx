@@ -1,12 +1,11 @@
 import React from "react";
 import "../stylesheets/Home.css";
+import Navbar from "../components/Navbar/Navbar";
 
-function Home () {
+function Home() {
 
-    return(
-        <section id="sectionmain">
-            <h2>Bienvenido a mi Portafolio! Tendrás un viaje emocionante rumbo a proyectos muy interesantes</h2>
-        </section>
+    return (
+        <Navbar/>
     )
 }
 
