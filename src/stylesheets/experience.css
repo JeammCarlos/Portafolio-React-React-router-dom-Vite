@@ -1,0 +1,21 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #04001a;
+}
+
+.experience h2 {
+    margin-left: 2rem;
+    color: #ffffff;
+}
+
+.experience h3 {
+    margin-left: 2rem;
+    padding: 2rem;
+    color: #ffffff;
+}
+
+.experience p {
+    color: #ffffff;
+}

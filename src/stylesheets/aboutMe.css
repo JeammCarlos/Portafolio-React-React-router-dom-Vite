@@ -109,16 +109,6 @@ li{
    color: #08206d;
 }
 
-.experience {
-    margin-left: 1rem;
-    color: #000000;
-}
-
-.experience h2 {
-    text-decoration: underline;
-    color: #000000;
-}
-
 .skills {
     margin-left: 1rem;
     color: #000000;
@@ -159,14 +149,4 @@ li{
     color: #08206d;
     margin-right: 2rem;
     margin-left: 1rem;
-}
-
-.more_info {
-    list-style: none;
-    padding: 0;
-    margin-left: 1rem;
-}
-
-.more_info h2 {
-    text-decoration: underline;
 }

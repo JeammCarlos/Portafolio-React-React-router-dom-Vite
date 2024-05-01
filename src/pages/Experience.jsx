@@ -1,4 +1,5 @@
 import React from "react";
+import "../stylesheets/experience.css"
 
 function Experience() {
     return(

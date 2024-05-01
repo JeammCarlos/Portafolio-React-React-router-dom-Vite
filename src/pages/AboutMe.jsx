@@ -6,7 +6,7 @@ function InfoPersonal() {
     return (
 
         <div className="container">
-            <img src="../src/images/foto_cv_lc_es_4.jpg"  className="photo-personal"/>
+            <img src="../src/images/foto_cv_lc_es_4.jpg" className="photo-personal" />
 
             <section className="personal-info">
                 <h1>Samuel Vidal Muñoz</h1>
@@ -20,9 +20,9 @@ function InfoPersonal() {
 
                 <section className="profile-description">
                     <h2>Sobre mí</h2>
-                    <p>Desarrollador front end con 12 años de experiencia dirigiendo proyectos de diseño de páginas web. 
+                    <p>Desarrollador front end con 12 años de experiencia dirigiendo proyectos de diseño de páginas web.
                         Centrado en la creación de códigos claros y con capacidad para cumplir los objetivos y las necesidades del cliente.</p>
-                </section>                   
+                </section>
 
                 <section className="education">
                     <h2>Educación</h2>
@@ -49,6 +49,7 @@ function InfoPersonal() {
                         <li>Cloud Application Development. Foundations.</li>
                     </ul>
                 </section>
+
 
             </div>
 
