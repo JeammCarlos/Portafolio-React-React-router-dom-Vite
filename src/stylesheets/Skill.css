@@ -1,3 +1,36 @@
 .Skills {
     color: aliceblue;
 }
+
+.Skills h2{
+    margin: 30px;
+    text-align: center;
+    padding: 30px;
+    font-size: xx-large;
+}
+
+.Skills ul{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.logo{
+    padding: 30px;
+    margin: 30px;
+    max-height: 70%;
+    max-width: 230px;
+    
+}
+
+.img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: 30px;
+}
+    

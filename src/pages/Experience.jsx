@@ -6,17 +6,18 @@ function Experience() {
               <h2>Experiencia</h2>
                     <ul>
                         <li>
-                            <h3><strong>GRUPO CEGVI S.A. DE C.V.</strong></h3>
-                            <p>Mayo 2023 - Octubre 2023 | Atención al cliente</p>
-                            <p>Revisión detallada de la farmacopea mexicana (FEUM) para garantizar la calidad y validez de los medicamentos.</p>
-                            <p>Control de Procedimientos Normalizados de Operación (PNO's).</p>
+                            <h3><strong>FusionCore Solutions, Chattanooga, TN</strong></h3>
+                            <p>Mayo 2021 - Presente | AFusionCore Solutions, Chattanooga, TN</p>
+                            <p>Dirigiendo el diseño e implementación de diseños de sitios web centrados en dispositivos móviles y funciones interactivas.</p>
+                            <p>Colaborando con el equipo de backend para integrar APIs RESTful.</p>
+                            <p>Escribiendo código limpio, mantenible y eficiente conforme a los últimos estándares web.</p>
                         </li>
                         <li>
-                            <h3><strong>Universidad Veracruzana, Orizaba</strong></h3>
-                            <p>Febrero 2022 - Marzo 2023 | Auxiliar laboratorista</p>
-                            <p>Administrar el sistema de gestión de calidad dentro del laboratorio para tener una organización óptima, siguiendo las normas ISO.</p>
-                            <p>Aplicar e integrar los requisitos de las BPL y el SGC dentro del laboratorio, optimizando así el uso de recursos, la eficiencia y reproducibilidad de las técnicas biotecnológicas empleadas, obteniendo un nivel de organización superior.</p>
-                            <p>Realizar pruebas de identificación bacteriana, pruebas de cultivo y pruebas de sensibilidad a antibióticos y antifúngicos.</p>
+                            <h3><strong>Tecnologías Wavewood, Ciudad de México.</strong></h3>
+                            <p>Enero 2018 - Mayo 2021 |  Desarrollador PHP</p>
+                            <p>Generé informes de diseño de interfaces.</p>
+                            <p>Coordiné las actividades de diseño de experiencia de usuario, mejorando la plataforma y ahorrando tiempos de interrupción en un 80 %.</p>
+                            <p>RDesarrollé las aplicaciones y los sistemas de seguridad de la empresa mediante la creación de una barrera de protección contra elementos externos.</p>
                         </li>
                     </ul>
         </section>

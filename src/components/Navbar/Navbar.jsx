@@ -17,6 +17,7 @@ const Navbar = () => {
                 <li><NavLink className='nombre_classname' to={'/AboutMe'}>About me</NavLink></li>
                 <li><NavLink className='nombre_classname' to={'/Experience'}>Experience</NavLink></li>
                 <li><NavLink className='nombre_classname' to={'/Skills'}>Skills</NavLink></li>
+                <li><NavLink className='nombre_classname' to={'/Contact'}>Contact</NavLink></li>
                 <li><NavLink className='nombre_classname' to={'/Giphy'}>Giphy</NavLink></li>
             </ul>
         </nav>
