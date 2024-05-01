@@ -14,13 +14,13 @@
 // Galería de GIFs: Se utiliza .map() para iterar sobre el array de gifs y mostrar cada GIF en una imagen.
 // Indicador de carga y mensaje de error: Se muestran condicionalmente el indicador de carga y el mensaje de error si isLoading o error son verdaderos, respectivamente
 
-import React, {useState, useEffect} from 'react';
+import {useState, useEffect} from 'react';
 import "../stylesheets/Giphy.css"
 
 const Giphy = () => {
   // Estados para manejar la información del componente
   const [gifs, setGifs] = useState([]);        // Almacena el array de GIFs obtenidos de la API
-  const [searchTerm, setSearchTerm] = useState('');  // El término de búsqueda actual
+  const [searchTerm, setSearchTerm] = useState('programming');  // El término de búsqueda actual
   const [isLoading, setIsLoading] = useState(false); // Indica si la llamada a la API está en curso
   const [error, setError] = useState(null);       // Almacena cualquier error que ocurra
 

@@ -11,13 +11,13 @@ const Navbar = () => {
 
                 <img src="../src/images/foto_cv_lc_es_4.JPG" className="PhotoProfile"/>
                 <h1>PORTAFOLIO</h1>
+                <p><NavLink className='nombre_classname' to={'/Home'}>Home</NavLink></p>
 
             </section>
             <ul className='nombre_classname_ul'>
                 <li><NavLink className='nombre_classname' to={'/AboutMe'}>About me</NavLink></li>
                 <li><NavLink className='nombre_classname' to={'/Experience'}>Experience</NavLink></li>
                 <li><NavLink className='nombre_classname' to={'/Skills'}>Skills</NavLink></li>
-                <li><NavLink className='nombre_classname' to={'/Contact'}>Contact</NavLink></li>
                 <li><NavLink className='nombre_classname' to={'/Giphy'}>Giphy</NavLink></li>
             </ul>
         </nav>

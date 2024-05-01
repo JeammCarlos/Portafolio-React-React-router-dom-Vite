@@ -4,13 +4,13 @@ import RoutesIndex from "../src/Routes/RoutesIndex"
 import Navbar from "./components/Navbar/Navbar"
 
 
-function App() {
+function App () {
   return (
 
     <>
       <BrowserRouter>
+      <Navbar/>
         <RoutesIndex />
-        <Navbar />
       </BrowserRouter>
 
     </>

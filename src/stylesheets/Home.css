@@ -2,3 +2,25 @@
 color: aliceblue;
 
 }
+
+.img-fluid {
+    width: 14%;
+    height: 26%;
+    border-radius: 30%;
+    display: block;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    margin-bottom: 90%;
+    transform: translateX(-50%);
+    animation: destello 1s infinite ease-in-out;
+    transition: opacity 1s ease-in-out;
+    box-shadow: 4px 4px 4px;
+    margin: 0px;
+  }
+  
+  @keyframes destello {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
