@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-
-
+import { useState } from 'react';
+import "../stylesheets/contact.css";
 
 const Contact = () => {
   const [nombre, setNombre] = useState('');
@@ -20,30 +19,33 @@ const Contact = () => {
 
   return (
     <form onSubmit={handleSubmit} className="container mt-2">
+
       <div className="mb-1">
         <label htmlFor="nombre" className="form-label">Nombre:</label>
         <input
           type="text"
           id="nombre"
           className="form-control"
-          placeholder="Ej:Favio FTG"
+          placeholder="Ejemplo: Favio FTG"
           value={nombre}
           onChange={(e) => setNombre(e.target.value)}
           required
         />
       </div>
+
       <div className="mb-3">
         <label htmlFor="email" className="form-label">Email:</label>
         <input
           type="email"
           id="email"
           className="form-control"
-          placeholder="Ej:Favio@gmail.com"
+          placeholder="Ejemplo: Favio@gmail.com"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
         />
       </div>
+
       <div className="mb-3">
         <label htmlFor="mensaje" className="form-label">Mensaje:</label>
         <textarea
@@ -54,7 +56,9 @@ const Contact = () => {
           required
         />
       </div>
+
       <button type="submit" className="btn btn-primary">Enviar</button>
+      
     </form>
   );
 };
