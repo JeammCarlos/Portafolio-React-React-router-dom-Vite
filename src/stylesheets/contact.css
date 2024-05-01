@@ -1,0 +1,49 @@
+/* Estilos generales */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 60px solid #0c1f2d;
+    border-radius: 5px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .form-control {
+    width: 95%;
+    padding: 1px;
+    margin-bottom: 15px;
+    border: 3px solid #ccc;
+    border-radius: 9px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #007bff; /* Azul primario */
+  }
+  
+  /* Estilos específicos */
+  #mensaje {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .btn {
+    background-color: #007bff; /* Azul primario */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+  }
