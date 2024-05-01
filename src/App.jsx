@@ -4,7 +4,7 @@ import RoutesIndex from "../src/Routes/RoutesIndex"
 import Navbar from "./components/Navbar/Navbar"
 
 
-function App () {
+const App = () => {
   return (
 
     <>
